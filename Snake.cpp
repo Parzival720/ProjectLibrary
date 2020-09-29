@@ -28,24 +28,24 @@ Snake::Snake(float screenHeight, float screenWidth)
 	backgroundShape.setPoint(4, sf::Vector2f(0.0f, screenHeight));
 
 	// Load All Texture image files
-	if (!vortexPic.loadFromFile("vortex.jpg"))
+	if (!vortexPic.loadFromFile("./res/images/vortex.jpg"))
 		std::cout << "Error loading vortex file" << std::endl;
 
-	if (!applePic.loadFromFile("apple.png"))
+	if (!applePic.loadFromFile("./res/images/apple.png"))
 		std::cout << "Error loading apple file" << std::endl;
 	applePic.setSmooth(true);
 
-	if (!rockPic.loadFromFile("rock.png"))
+	if (!rockPic.loadFromFile("./res/images/rock.png"))
 		std::cout << "Error loading rock file" << std::endl;
 	rockPic.setSmooth(true);
 
-	if (!snakeHeadPic.loadFromFile("snake-head.png"))
+	if (!snakeHeadPic.loadFromFile("./res/images/snake-head.png"))
 		std::cout << "Error loading snake file" << std::endl;
 
-	if (!snakeBodyPic.loadFromFile("snake-body.png"))
+	if (!snakeBodyPic.loadFromFile("./res/images/snake-body.png"))
 		std::cout << "Error loading snake file" << std::endl;
 
-	if (!grassBackground.loadFromFile("grass.jpg")) {
+	if (!grassBackground.loadFromFile("./res/images/grass.jpg")) {
 		std::cout << "Error loading grass file" << std::endl;
 	}
 	grassBackground.setRepeated(true);

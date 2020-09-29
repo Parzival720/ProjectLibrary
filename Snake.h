@@ -65,7 +65,7 @@ struct COLLECTABLE
 	int value;
 };
 
-const std::string arialFile = "arial.ttf";
+const std::string arialFile = "./res/fonts/arial.ttf";
 class Snake : public Project
 {
 public:

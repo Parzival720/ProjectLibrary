@@ -23,7 +23,7 @@ Menu::Menu(float screenHeight, float screenWidth)
 	convexShape.setPoint(3, sf::Vector2f(screenWidth / 2.0f, screenHeight / 2.0f));
 	convexShape.setPoint(4, sf::Vector2f(0.0f, screenHeight));
 
-	if (!snakeTitle.loadFromFile("snake-title.png"))
+	if (!snakeTitle.loadFromFile("./res/images/snake-title.png"))
 		std::cout << "Error loading snake title file" << std::endl;
 
 	snakeButton.setSize(sf::Vector2f(screenWidth / 3.0f, 100));
@@ -49,7 +49,6 @@ Project* Menu::executeEvent(sf::Event event, sf::RenderWindow& window) {
 		sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
 		if (snakeButton.getGlobalBounds().contains(mousePosF))
 		{
-			std::cout << "Clicked, yay!" << std::endl;
 			return new Snake(screenHeight, screenWidth);
 		}
 	}

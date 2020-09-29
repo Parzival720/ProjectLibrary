@@ -28,26 +28,5 @@ c:\users\ewalc\source\repos\projectlibrary\projectlibrary\snake.cpp(174): warnin
 c:\users\ewalc\source\repos\projectlibrary\projectlibrary\snake.cpp(184): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\ewalc\source\repos\projectlibrary\projectlibrary\snake.cpp(196): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\ewalc\source\repos\projectlibrary\projectlibrary\snake.cpp(206): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  TextBox.cpp
-c:\users\ewalc\source\repos\projectlibrary\projectlibrary\textbox.cpp(15): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\ewalc\source\repos\projectlibrary\projectlibrary\textbox.cpp(28): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\ewalc\source\repos\projectlibrary\projectlibrary\textbox.cpp(40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\ewalc\source\repos\projectlibrary\projectlibrary\textbox.cpp(41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
   Generating Code...
   ProjectLibrary.vcxproj -> c:\users\ewalc\source\repos\ProjectLibrary\Debug\ProjectLibrary.exe
